@@ -1,0 +1,72 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F3F3F3;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.card {
+    width: 100%;
+    background-color: red;
+    color: green;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: purple;
+    color: #FFF;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #0F47A1;
+}
+
+.inline-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#start-button, .option-button, #back-button, #submit-button, #clear-button {
+    margin: 10px 0;
+}
+
+.highscore-list {
+    padding-left: 30px;
+}
+
+#leaderboard-link {
+    color: black;
+    text-decoration: none;
+}
+
+#leaderboard-link:hover {
+    text-decoration: underline;
+}
+
+#leaderboard-card h2 {
+    text-align: center;
+}
